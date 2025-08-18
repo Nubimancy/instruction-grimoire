@@ -12,7 +12,8 @@ Choose your learning context (character class) for the quest ahead:
 |---------|-----------|------------------|-------------|------------|---------|
 | **🎯 Project Management** | **Atlas** | Weekly/Bi-weekly | 2025-08-18 | UPLIFT Content Campaign Coordination | ✅ Active |
 | **📝 Content Creation** | **Quill** | Weekly + Monthly Reviews | 2025-08-18 | Content Strategy | ✅ Active |
-| **Herald** (Community/Outreach) | :white_check_mark: Active | 2025-08-18 | UPLIFT content campaign scheduled in ADO (Features #22-27) |
+| **📣 Community Outreach** | **Herald** | Monthly + Event-driven | 2025-08-18 | 90-Day AI Journey Blog Series (Epic #28) | ✅ Active |
+| **📝 Voice Synthesis** | **Scribe** | Content-driven | 2025-08-18 | Voice Pattern Development & Content Creation | ✅ New |
 | **📚 Education Development** | **Mentor** | Monthly + Quarterly Reviews | 2025-08-17 | 2025-09-17 | ✅ New |
 | **✏️ Editorial Excellence** | **Echo** | Event-driven (content ready) | - | As needed | 🟡 Standby |
 | **🔧 DevOps Mastery** | **Forge** | Event-driven (infrastructure) | - | As needed | 🟡 Standby |
@@ -31,6 +32,7 @@ Each learning context connects to practical technology development projects and 
 | `project-management.instructions.md` | **Atlas** | Azure DevOps, Project Leadership | Strategic planning, infrastructure coordination | `Project Management` |
 | `content-planner.instructions.md` | **Quill** | Content Strategy, Technical Writing | Content creation, community engagement | `Content Planner` |
 | `community-outreach.instructions.md` | **Herald** | Social platforms, Networking | Community building, thought leadership | `Community Outreach` |
+| `scribe.instructions.md` | **Scribe** | Voice Synthesis, Authentic Content Creation | Voice pattern analysis, authentic writing | `Voice Synthesis` |
 | `education-planning.instructions.md` | **Mentor** | Learning Design, Curriculum | Course development, skill mapping | `Education Planning` |
 | `editor.instructions.md` | **Echo** | Technical Writing, Publishing | Editorial excellence, quality assurance | `Editor` |
 | `devops-engineer.instructions.md` | **Forge** | CI/CD, Infrastructure as Code | Automation, deployment pipelines | `DevOps Engineer` |
