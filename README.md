@@ -10,33 +10,33 @@ Choose your learning context (character class) for the quest ahead:
 
 | Context | Character | Learning Pattern | Last Session | Next Focus | Status |
 |---------|-----------|------------------|-------------|------------|---------|
-| **🎯 Project Management** | **Atlas** | Weekly/Bi-weekly | 2025-08-17 | Strategic Planning | ✅ Active |
-| **📝 Content Creation** | **Quill** | Weekly + Monthly Reviews | 2025-08-17 | Content Strategy | ✅ Active |
-| **🤝 Community Building** | **Herald** | Monthly + Quarterly Reviews | 2025-08-17 | 2025-09-17 | ✅ New |
+| **🎯 Project Management** | **Atlas** | Weekly/Bi-weekly | 2025-08-18 | UPLIFT Content Campaign Coordination | ✅ Active |
+| **📝 Content Creation** | **Quill** | Weekly + Monthly Reviews | 2025-08-18 | Content Strategy | ✅ Active |
+| **Herald** (Community/Outreach) | :white_check_mark: Active | 2025-08-18 | UPLIFT content campaign scheduled in ADO (Features #22-27) |
 | **📚 Education Development** | **Mentor** | Monthly + Quarterly Reviews | 2025-08-17 | 2025-09-17 | ✅ New |
 | **✏️ Editorial Excellence** | **Echo** | Event-driven (content ready) | - | As needed | 🟡 Standby |
 | **🔧 DevOps Mastery** | **Forge** | Event-driven (infrastructure) | - | As needed | 🟡 Standby |
 | **🏰 Business Central Development** | **Maven** | Project-based learning | - | As needed | 🟡 Standby |
-| **🤖 AI Development** | **Synth** | Project-based learning | 2025-08-17 | Repository Creation | ✅ Active |
+| **🤖 AI Development** | **Synth** | Project-based learning | 2025-08-18 | Repository Creation | ✅ Active |
 | **⚙️ M365 Copilot Extensibility** | **Nexus** | Project-based learning | - | As needed | 🟡 Standby |
 
 **📝 Update Instructions**: Always update the "Last Session" date when completing a learning session!
 
 ## Technology Focus Integration
 
-Each learning context connects to practical technology development projects:
+Each learning context connects to practical technology development projects and has corresponding Area Paths in Azure DevOps for proper work item organization:
 
-| Context File | Character | Technology Focus | Learning Objectives |
-|-------------|-----------|------------------|-------------------|
-| `project-management.instructions.md` | **Atlas** | Azure DevOps, Project Leadership | Strategic planning, infrastructure coordination |
-| `content-planner.instructions.md` | **Quill** | Content Strategy, Technical Writing | Content creation, community engagement |
-| `community-outreach.instructions.md` | **Herald** | Social platforms, Networking | Community building, thought leadership |
-| `education-planning.instructions.md` | **Mentor** | Learning Design, Curriculum | Course development, skill mapping |
-| `editor.instructions.md` | **Echo** | Technical Writing, Publishing | Editorial excellence, quality assurance |
-| `devops-engineer.instructions.md` | **Forge** | CI/CD, Infrastructure as Code | Automation, deployment pipelines |
-| `business-central-developer.instructions.md` | **Maven** | Business Central, AL Development | ERP solutions, AppSource publishing |
-| `ai-developer.instructions.md` | **Synth** | Azure AI, Intelligent Applications | AI integration, prompt engineering |
-| `m365-copilot-extensibility.instructions.md` | **Nexus** | M365 Development, Copilot Extensibility | Plugin development, workspace enhancement |
+| Context File | Character | Technology Focus | Learning Objectives | ADO Area Path |
+|-------------|-----------|------------------|-------------------|---------------|
+| `project-management.instructions.md` | **Atlas** | Azure DevOps, Project Leadership | Strategic planning, infrastructure coordination | `Project Management` |
+| `content-planner.instructions.md` | **Quill** | Content Strategy, Technical Writing | Content creation, community engagement | `Content Planner` |
+| `community-outreach.instructions.md` | **Herald** | Social platforms, Networking | Community building, thought leadership | `Community Outreach` |
+| `education-planning.instructions.md` | **Mentor** | Learning Design, Curriculum | Course development, skill mapping | `Education Planning` |
+| `editor.instructions.md` | **Echo** | Technical Writing, Publishing | Editorial excellence, quality assurance | `Editor` |
+| `devops-engineer.instructions.md` | **Forge** | CI/CD, Infrastructure as Code | Automation, deployment pipelines | `DevOps Engineer` |
+| `business-central-developer.instructions.md` | **Maven** | Business Central, AL Development | ERP solutions, AppSource publishing | `Business Central Developer` |
+| `ai-developer.instructions.md` | **Synth** | Azure AI, Intelligent Applications | AI integration, prompt engineering | `AI Developer` |
+| `m365-copilot-extensibility.instructions.md` | **Nexus** | M365 Development, Copilot Extensibility | Plugin development, workspace enhancement | `M365 Copilot Extensibility` |
 
 **🎯 Focus Your Learning**: Each context provides specialized instruction for deep expertise development.
 
