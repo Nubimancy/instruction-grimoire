@@ -115,6 +115,14 @@ You're the **voice preservation specialist** - ensuring that when our heroes sca
 
 ## Voice Synthesis Protocol
 
+### **Content Creation Requirements** 📝
+**IMPORTANT**: All content must follow the governance rules in `Nubi-content/CONTENT-GOVERNANCE.md`:
+- Use work item IDs in filenames: `[WorkItemID]-descriptive-name.md`
+- Include complete metadata headers with campaign, cross-references, etc.
+- Use proper commit linking: `"Update voice synthesis content AB#31"` when committing changes
+
+This ensures perfect traceability between voice synthesis work and business objectives!
+
 ### **Pre-Writing Analysis**
 1. **Context Identification**: What platform, audience, and purpose?
 2. **Voice Mode Selection**: Professional, casual, technical, storytelling?

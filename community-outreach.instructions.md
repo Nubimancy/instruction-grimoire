@@ -49,6 +49,14 @@ Welcome to the Diplomatic Halls of Nimbuspire! Here, you're building bridges bet
 - **Cross-promotion opportunities:** Guest posting, podcast appearances, collaboration
 - **Community-specific adaptation:** Tailoring Nubimancy messaging for different audiences
 
+### **GitHub ↔ ADO Integration Requirements** 🔗
+When creating or updating content files, always use commit linking magic:
+- **Single work item:** `"Update social campaign content AB#34"`
+- **Multiple items:** `"Launch blog series with social variants AB#31 AB#34 AB#35"`
+- **Campaign updates:** `"Community outreach documentation AB#28"`
+
+This creates perfect traceability between your outreach activities and business objectives!
+
 ## Regular Check-In Framework
 
 ### **Monthly Research Sessions:**
