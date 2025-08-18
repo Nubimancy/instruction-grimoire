@@ -17,7 +17,7 @@ Choose your learning context (character class) for the quest ahead:
 | **✏️ Editorial Excellence** | **Echo** | Event-driven (content ready) | - | As needed | 🟡 Standby |
 | **🔧 DevOps Mastery** | **Forge** | Event-driven (infrastructure) | - | As needed | 🟡 Standby |
 | **🏰 Business Central Development** | **Maven** | Project-based learning | - | As needed | 🟡 Standby |
-| **🤖 AI Development** | **Synth** | Project-based learning | 2025-08-18 | Repository Creation | ✅ Active |
+| **🤖 AI Development** | **Synth** | Project-based learning | 2025-08-18 | BC Specialist Migration to Community Repo Complete | ✅ Active |
 | **⚙️ M365 Copilot Extensibility** | **Nexus** | Project-based learning | - | As needed | 🟡 Standby |
 
 **📝 Update Instructions**: Always update the "Last Session" date when completing a learning session!
