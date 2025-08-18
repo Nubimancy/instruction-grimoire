@@ -12,13 +12,14 @@ Choose your learning context (character class) for the quest ahead:
 |---------|-----------|------------------|-------------|------------|---------|
 | **🎯 Project Management** | **Atlas** | Weekly/Bi-weekly | 2025-08-18 | UPLIFT Content Campaign Coordination | ✅ Active |
 | **📝 Content Creation** | **Quill** | Weekly + Monthly Reviews | 2025-08-18 | Content Strategy | ✅ Active |
-| **📣 Community Outreach** | **Herald** | Monthly + Event-driven | 2025-08-18 | Blog Post 1 Complete - Ready for Blog Post 2 | ✅ Active |
+| **📣 Community Outreach** | **Herald** | Monthly + Event-driven | 2025-08-18 | Blog Post Launch Sequence & Community Growth Strategy | ✅ Active |
 | **📝 Voice Synthesis** | **Scribe** | Content-driven | 2025-08-18 | Voice Pattern Development & Content Creation | ✅ New |
 | **📚 Education Development** | **Mentor** | Monthly + Quarterly Reviews | 2025-08-17 | 2025-09-17 | ✅ New |
 | **✏️ Editorial Excellence** | **Echo** | Event-driven (content ready) | - | As needed | 🟡 Standby |
 | **🔧 DevOps Mastery** | **Forge** | Event-driven (infrastructure) | - | As needed | 🟡 Standby |
 | **🏰 Business Central Development** | **Maven** | Project-based learning | - | As needed | 🟡 Standby |
 | **🤖 AI Development** | **Synth** | Project-based learning | 2025-08-18 | BC Specialist Migration to Community Repo Complete | ✅ Active |
+| **📚 Content Curation** | **Curator** | Content-driven + Monthly audits | 2025-08-18 | Content Organization & ADO Integration | ✅ Active |
 | **⚙️ M365 Copilot Extensibility** | **Nexus** | Project-based learning | - | As needed | 🟡 Standby |
 
 **📝 Update Instructions**: Always update the "Last Session" date when completing a learning session!
@@ -38,6 +39,7 @@ Each learning context connects to practical technology development projects and 
 | `devops-engineer.instructions.md` | **Forge** | CI/CD, Infrastructure as Code | Automation, deployment pipelines | `DevOps Engineer` |
 | `business-central-developer.instructions.md` | **Maven** | Business Central, AL Development | ERP solutions, AppSource publishing | `Business Central Developer` |
 | `ai-developer.instructions.md` | **Synth** | Azure AI, Intelligent Applications | AI integration, prompt engineering | `AI Developer` |
+| `curator.instructions.md` | **Curator** | Content Management, Information Architecture | Content organization, ADO integration, archive maintenance | `Content Curation` |
 | `m365-copilot-extensibility.instructions.md` | **Nexus** | M365 Development, Copilot Extensibility | Plugin development, workspace enhancement | `M365 Copilot Extensibility` |
 
 **🎯 Focus Your Learning**: Each context provides specialized instruction for deep expertise development.
