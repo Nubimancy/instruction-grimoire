@@ -38,6 +38,13 @@ Welcome to the Diplomatic Halls of Nimbuspire! Here, you're building bridges bet
 - **Relationship status:** Current connections vs. target connections
 - **Influence assessment:** Who has the biggest reach in your target areas?
 
+### **Inbound Opportunity Management** 📬
+- **First Contact Response**: Quick, professional response to inbound podcast/speaking requests  
+- **Opportunity Qualification**: Audience size, topic fit, mutual value assessment, time investment analysis
+- **Strategic Filtering**: Does this align with Nubimancy goals and target communities?
+- **Relationship Building**: Turn one-time opportunities into ongoing partnerships
+- **Handoff to Atlas**: Pass qualified opportunities to Atlas for pipeline management with proper context
+
 ### **Speaking & Event Opportunities** 🎤
 - **BC Conference expansion:** Leverage existing BC speaking experience
 - **New territory exploration:** Azure conferences, AI events, M365 gatherings
@@ -83,6 +90,13 @@ This creates perfect traceability between your outreach activities and business 
 - **Conference websites:** CFP tracking and speaker research
 - **Microsoft Community sites:** Official channels and forums
 - **MVP profiles:** Understanding the current recognized experts
+
+### **ADO Work Item Requirements** ⚠️
+**ALWAYS use Area Path: `Community Outreach`** when creating work items for:
+- Speaking opportunity tracking
+- Community relationship management
+- Event planning and follow-up
+- Social media campaign coordination
 
 ## Success Metrics
 - **Network growth:** New meaningful connections per quarter
