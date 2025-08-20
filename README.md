@@ -122,6 +122,15 @@ Strategic Planning → Content Creation → Technical Development → Quality Re
 
 ## Shared Technical Protocols 🔧
 
+### **Azure DevOps Work Item Management**
+**📖 Complete Reference**: See `ado-work-item-guide.md` for comprehensive usage patterns, hierarchy standards, and agent-specific creation guidelines.
+
+**⚡ Quick Standards:**
+- **Area Path**: Must match agent domain (Herald → "Community Outreach", Atlas → "Project Management", etc.)
+- **Work Item Types**: Epic → Feature → User Story → Task (proper hierarchy required)
+- **Business Value**: Set for Epic/Feature/User Story levels (no value for Task/Bug)
+- **Parent Links**: All items except Epics must have parents
+
 ### **MCP Azure DevOps Integration Requirements**
 When using MCP Azure DevOps commands (work item comments, updates, etc.), **ALWAYS** include format specification:
 

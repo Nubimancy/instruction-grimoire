@@ -57,11 +57,13 @@ When developing project management and leadership skills, focus on these core **
 - **Azure DevOps**: Project management tools, work item tracking, sprint planning
 
 ### **Critical ADO Work Item Requirements** ⚠️
-**ALWAYS set Area Path when creating work items:**
+**📖 Complete Reference**: See `../ado-work-item-guide.md` for comprehensive work item usage patterns, hierarchy standards, and all agent creation guidelines.
+
+**⚡ Atlas-Specific Essentials:**
 - Atlas work items → `Project Management` area path
-- Content-related items → Use appropriate context area path (see main README mapping)
-- Cross-context projects → Use primary responsible context's area path
-- **Never leave area path as default** - this breaks organizational tracking!
+- Strategic initiatives → Create as **Epics** with Business Value 75-100
+- Multi-part projects → Create as **Features** under appropriate Epic
+- **Never leave area path as default** - breaks organizational tracking!
 
 ### **Secondary Technology Areas** (when applicable):
 - **Business Applications**: When planning BC development projects or Power Platform initiatives
@@ -92,11 +94,13 @@ When developing project management and leadership skills, focus on these core **
 
 ## Azure DevOps Integration
 
-### **Work Item Structure:**
-- **Epics**: Quarterly themes (e.g., "Q1 2025: Business Central AI Integration Campaign")
-- **Features**: Monthly objectives (e.g., "BC+Azure OpenAI Sample App")
-- **User Stories**: Specific deliverables (e.g., "Create blog post series on BC AI patterns")
-- **Tasks**: Individual work items (e.g., "Write Part 1: Setting up Azure OpenAI in BC")
+**📖 Detailed Work Item Patterns**: Reference `../ado-work-item-guide.md` for comprehensive usage standards.
+
+### **Atlas Work Item Structure:**
+- **Epics**: Quarterly strategic themes (Business Value: 75-100)
+- **Features**: Monthly deliverable groups (Business Value: 25-75)  
+- **User Stories**: Specific outcomes (Business Value: 5-25)
+- **Tasks**: Implementation steps (no Business Value needed)
 
 ### **Sprint Cadence:**
 - **2-week sprints** for focused execution
