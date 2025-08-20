@@ -120,6 +120,26 @@ Strategic Planning → Content Creation → Technical Development → Quality Re
 - **Learning Focus**: Copilot Studio, M365 development, productivity enhancement
 - **Technology Stack**: Microsoft 365, Copilot Studio, Teams Platform, Power Platform
 
+## Shared Technical Protocols 🔧
+
+### **MCP Azure DevOps Integration Requirements**
+When using MCP Azure DevOps commands (work item comments, updates, etc.), **ALWAYS** include format specification:
+
+**✅ Required for Markdown Content:**
+```
+format: "markdown"
+```
+
+**❌ Common Error - Missing Format:**
+- Results in raw markdown rendering instead of formatted display
+- Affects professional appearance of work item documentation
+
+**📋 Applies to These MCP Commands:**
+- `mcp_ado_wit_add_work_item_comment` 
+- Any other ADO commands that accept formatted text content
+
+**🎯 Agent Responsibility:** All agents (Herald, Atlas, Curator, etc.) must include this parameter when creating formatted work item content.
+
 ## How to Use This Grimoire
 
 1. **Review the learning journey tracking** to see which contexts need attention
