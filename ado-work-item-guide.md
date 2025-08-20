@@ -4,6 +4,30 @@
 
 This guide establishes consistent work item usage patterns across all Nubimancy agents and contexts. Following these patterns ensures proper tracking, reporting, and collaboration across our diverse project activities.
 
+## 🧙‍♂️ **Virtual Team Assignment Model**
+
+**NEW**: Work items are now assigned to virtual team members representing each learning context:
+
+| Virtual Team Member | Learning Context | License Type | Primary Responsibilities |
+|-------------------|------------------|--------------|------------------------|
+| **Atlas** | Project Management | Basic | Strategic planning, Epic/Feature creation, cross-context coordination |
+| **Quill** | Content Planning | Stakeholder | Blog posts, content strategy, editorial planning |
+| **Herald** | Community Outreach | Stakeholder | MVP networking, conference responses, community engagement |
+| **Scribe** | Documentation | Stakeholder | Technical writing, voice synthesis, documentation |
+| **Mentor** | Education Planning | Stakeholder | Course development, learning pathway design |
+| **Echo** | Editorial Excellence | Stakeholder | Content review, quality assurance, publishing |
+| **Forge** | DevOps Engineering | Stakeholder | Infrastructure, automation, deployment pipelines |
+| **Maven** | Business Central Development | Stakeholder | BC/AL development, AppSource publishing |
+| **Synth** | AI Development | Stakeholder | AI integration, agent development, automation |
+| **Curator** | Content Curation | Stakeholder | Information architecture, content organization |
+| **Nexus** | M365 Copilot Extensibility | Stakeholder | Copilot plugins, workspace enhancement |
+
+### **Assignment Strategy:**
+- **Atlas (Basic license)**: Can create, edit, and manage all work item types - handles all unplanned work
+- **Other contexts (Stakeholder)**: Can be assigned work items for tracking and specialized execution
+- **Universal Query**: Use Query ID `e365c475-1fbd-4a00-a0b1-b38a740f2edd` to retrieve all work items
+- **Area Paths**: Maintained for organizational reporting, but assignment handles primary routing
+
 ## Work Item Hierarchy & Usage
 
 ### **Epic** - Major Business Initiatives
@@ -72,74 +96,52 @@ This guide establishes consistent work item usage patterns across all Nubimancy 
 
 ## Agent-Specific Creation Patterns
 
-### **Workflow Stage Tracking with Tags**
+### **Virtual Team Assignment Examples**
 
-Since we use universal states across all work types, use **tags** to track specific workflow stages:
-
-**Content Creation Workflow Tags:**
-- `idea-stage`, `outline-stage`, `draft-stage`, `edit-stage`, `published`, `measuring-engagement`
-
-**Community Outreach Workflow Tags:**  
-- `opportunity-identified`, `outreach-planned`, `engaged`, `follow-up-pending`, `measuring-impact`
-
-**Strategic Planning Workflow Tags:**
-- `concept-phase`, `resource-planning`, `coordination-active`, `progress-monitoring`, `measuring-outcomes`
-
-**Technical Development Workflow Tags:**
-- `requirements-gathering`, `design-phase`, `implementation`, `testing-phase`, `deployed`, `measuring-performance`
-
-### **Herald** (Community Outreach)
+**Content Work Items:**
 ```
-Area Path: "Community Outreach"
-Typical Pattern: User Story → Tasks
-- Workshop responses (User Stories)
-- Community engagement activities (User Stories) 
-- Follow-up coordination (Tasks)
-Tags: Community, High-Priority, [Opportunity-Source]
+Assigned To: Quill (Content Planning AI)
+Area Path: Content Planner (for reporting)
+Tags: Blog, High-Priority (simplified tagging)
 ```
 
-### **Scribe** (Content Creation)  
+**Community Engagement:**
 ```
-Area Path: "Content Planner"
-Typical Pattern: Feature → User Stories → Tasks
-- Blog series (Features with multiple User Story posts)
-- Individual content pieces (User Stories)
-- Content creation tasks (Tasks: outline → draft → review → publish)
-Tags: Blog, Content, [Content-Type], [Platform]
+Assigned To: Herald (Community Outreach AI)  
+Area Path: Community Outreach
+Tags: Community, MVP-Networking
 ```
 
-### **Atlas** (Project Management)
-```  
-Area Path: "Project Management"
-Typical Pattern: Epic → Features → User Stories
-- Strategic initiatives (Epics)
-- Multi-part projects (Features)
-- Process improvements (User Stories)
-Tags: Planning, Strategy, Process-Improvement
+**Project Management:**
+```
+Assigned To: Atlas (Project Management AI)
+Area Path: Project Management
+Tags: Strategy, Planning
 ```
 
-### **Synth** (AI Development)
+**Documentation Work:**
 ```
-Area Path: "AI Development" 
-Typical Pattern: Tasks under other agents' User Stories
-- Technical implementation (Tasks)
-- Agent context updates (User Stories)
-- Process automation (User Stories)
-Tags: Technical, Agent-Context, Automation
+Assigned To: Scribe (Documentation AI)
+Area Path: Content Planner
+Tags: Documentation, Technical-Writing
 ```
 
-### **Other Agents** (Curator, Editor, etc.)
-```
-Area Path: Matches their primary domain
-Follow same patterns as above based on work type
-```
+### **Simplified Tagging Strategy**
+
+With virtual team assignments handling the "who", tags now focus purely on "what":
+
+**Content Type Tags:** Blog, Documentation, Tutorial, Demo, Workshop
+**Priority Tags:** High-Priority, Quick-Win, Strategic  
+**Subject Tags:** AI-Orchestration, DevOps, MVP-Networking, BC-Development
+**Stage Tags:** Draft, Review-Ready, Published, Measuring-Engagement
 
 ## Required Fields & Standards
 
 ### **All Work Items Must Have:**
-- **Area Path**: Set according to agent patterns above
+- **Assigned To**: Virtual team member (Atlas, Quill, Herald, etc.)
+- **Area Path**: Set for organizational reporting (can use assignment for most queries)
 - **Iteration**: Assigned during sprint planning (weekly iterations)
-- **Tags**: At least 2 relevant tags for discoverability
+- **Tags**: Simplified 2-3 relevant tags for discoverability
 - **Clear Title**: Descriptive and actionable
 
 ### **Business Value Items (Epic/Feature/User Story):**
@@ -203,11 +205,12 @@ Link related work items using:
 ## Quality Assurance Checklist
 
 ### **Before Creating Work Items:**
-- [ ] Correct Area Path selected for agent domain
+- [ ] Correct virtual team member assigned (Atlas, Quill, Herald, etc.)
+- [ ] Area Path set for organizational reporting
 - [ ] Appropriate work item type for scope and duration
 - [ ] Business Value set for Epic/Feature/User Story
 - [ ] Clear, actionable title and description
-- [ ] Relevant tags for discoverability
+- [ ] Simplified, relevant tags for discoverability
 
 ### **During Work Item Updates:**
 - [ ] Comments use `format: "markdown"`
@@ -283,6 +286,10 @@ Link related work items using:
 # Get my work items
 mcp_ado_wit_my_work_items
 
+# Get ALL work items (comprehensive view)
+mcp_ado_wit_get_query_results_by_id
+Query ID: e365c475-1fbd-4a00-a0b1-b38a740f2edd
+
 # Create work item with proper area path  
 mcp_ado_wit_create_work_item
 
@@ -292,8 +299,11 @@ mcp_ado_wit_add_work_item_comment (with format: "markdown")
 # Link work items
 mcp_ado_wit_work_items_link
 
-# Batch updates
+# Batch updates for assignment/tag cleanup
 mcp_ado_wit_update_work_items_batch
+
+# Get work item details in batch
+mcp_ado_wit_get_work_items_batch_by_ids
 ```
 
 This guide should be referenced by all agents and updated as our workflow patterns evolve. Consistency in work item management directly supports our project success and agent collaboration effectiveness.
