@@ -4,6 +4,16 @@
 
 Welcome to your personal technology mastery command center! This grimoire contains specialized AI context instructions designed to help you develop expertise across multiple technology domains through immersive, character-driven learning adventures.
 
+## Two Ways to Work with These Personas
+
+**🎭 Persona Mode**: Ask your AI assistant to roleplay as a specific character for direct interaction  
+*Example: "Hey Atlas, what's your take on this project timeline?"*
+
+**🤖 Agent Mode**: Your AI assistant uses specialized subagents behind-the-scenes for complex tasks  
+*Example: You ask for DevOps help → AI uses Forge agent → You get optimized solution*
+
+> **📁 File Organization**: Persona instructions are in `/personas/` folder, Agent definitions are in `/agents/` folder
+
 Choose your learning context (character class) for the quest ahead:
 
 ## Learning Journey Tracking
@@ -11,6 +21,7 @@ Choose your learning context (character class) for the quest ahead:
 | Context | Character | Learning Pattern | Last Session | Next Focus | Status |
 |---------|-----------|------------------|-------------|------------|---------|
 | **🎯 Project Management** | **Atlas** | Weekly/Bi-weekly | 2025-08-18 | Elite MVP Networking Coordination & Time-bound Opportunity Management | ✅ Active |
+| **🎭 Multi-Agent Orchestration** | **Conductor** | Project-driven (complex initiatives) | 2025-08-21 | Multi-agent workflow optimization | ✅ Active |
 | **📝 Content Creation** | **Quill** | Weekly + Monthly Reviews | 2025-08-18 | Content Strategy | ✅ Active |
 | **📣 Community Outreach** | **Herald** | Monthly + Event-driven | 2025-08-18 | Blog Post Launch Sequence & Community Growth Strategy | ✅ Active |
 | **📝 Voice Synthesis** | **Scribe** | Content-driven | 2025-08-18 | Voice Pattern Development & Content Creation | ✅ New |
@@ -30,17 +41,17 @@ Each learning context connects to practical technology development projects and 
 
 | Context File | Character | Technology Focus | Learning Objectives | ADO Area Path |
 |-------------|-----------|------------------|-------------------|---------------|
-| `project-management.instructions.md` | **Atlas** | Azure DevOps, Project Leadership | Strategic planning, infrastructure coordination | `Project Management` |
-| `content-planner.instructions.md` | **Quill** | Content Strategy, Technical Writing | Content creation, community engagement | `Content Planner` |
-| `community-outreach.instructions.md` | **Herald** | Social platforms, Networking | Community building, thought leadership | `Community Outreach` |
-| `scribe.instructions.md` | **Scribe** | Voice Synthesis, Authentic Content Creation | Voice pattern analysis, authentic writing | `Voice Synthesis` |
-| `education-planning.instructions.md` | **Mentor** | Learning Design, Curriculum | Course development, skill mapping | `Education Planning` |
-| `editor.instructions.md` | **Echo** | Technical Writing, Publishing | Editorial excellence, quality assurance | `Editor` |
-| `devops-engineer.instructions.md` | **Forge** | CI/CD, Infrastructure as Code | Automation, deployment pipelines | `DevOps Engineer` |
-| `business-central-developer.instructions.md` | **Maven** | Business Central, AL Development | ERP solutions, AppSource publishing | `Business Central Developer` |
-| `ai-developer.instructions.md` | **Synth** | Azure AI, Intelligent Applications | AI integration, prompt engineering | `AI Developer` |
-| `curator.instructions.md` | **Curator** | Content Management, Information Architecture | Content organization, ADO integration, archive maintenance | `Content Curation` |
-| `m365-copilot-extensibility.instructions.md` | **Nexus** | M365 Development, Copilot Extensibility | Plugin development, workspace enhancement | `M365 Copilot Extensibility` |
+| `personas/project-management.instructions.md` | **Atlas** | Azure DevOps, Project Leadership | Strategic planning, infrastructure coordination | `Project Management` |
+| `personas/content-planner.instructions.md` | **Quill** | Content Strategy, Technical Writing | Content creation, community engagement | `Content Planner` |
+| `personas/community-outreach.instructions.md` | **Herald** | Social platforms, Networking | Community building, thought leadership | `Community Outreach` |
+| `personas/scribe.instructions.md` | **Scribe** | Voice Synthesis, Authentic Content Creation | Voice pattern analysis, authentic writing | `Voice Synthesis` |
+| `personas/education-planning.instructions.md` | **Mentor** | Learning Design, Curriculum | Course development, skill mapping | `Education Planning` |
+| `personas/editor.instructions.md` | **Echo** | Technical Writing, Publishing | Editorial excellence, quality assurance | `Editor` |
+| `personas/devops-engineer.instructions.md` | **Forge** | CI/CD, Infrastructure as Code | Automation, deployment pipelines | `DevOps Engineer` |
+| `personas/business-central-developer.instructions.md` | **Maven** | Business Central, AL Development | ERP solutions, AppSource publishing | `Business Central Developer` |
+| `personas/ai-developer.instructions.md` | **Synth** | Azure AI, Intelligent Applications | AI integration, prompt engineering | `AI Developer` |
+| `personas/curator.instructions.md` | **Curator** | Content Management, Information Architecture | Content organization, ADO integration, archive maintenance | `Content Curation` |
+| `personas/m365-copilot-extensibility.instructions.md` | **Nexus** | M365 Development, Copilot Extensibility | Plugin development, workspace enhancement | `M365 Copilot Extensibility` |
 
 **🎯 Focus Your Learning**: Each context provides specialized instruction for deep expertise development.
 
@@ -68,55 +79,55 @@ Strategic Planning → Content Creation → Technical Development → Quality Re
 
 ### 🎯 **Atlas** - *Project Management & Strategic Leadership*
 *The Strategic Command Center*
-- **File**: `project-management.instructions.md`
+- **File**: `personas/project-management.instructions.md`
 - **Learning Focus**: Quarterly planning, agile methodologies, Azure DevOps mastery
 - **Technology Stack**: Azure DevOps, Project Management Tools, Strategic Planning Frameworks
 
 ### 📝 **Quill** - *Content Creation & Technical Writing*
 *The Chronicler's Strategic Chamber*
-- **File**: `content-planner.instructions.md`
+- **File**: `personas/content-planner.instructions.md`
 - **Learning Focus**: Technical content strategy, community engagement, thought leadership
 - **Technology Stack**: Content Management Systems, Social Media Platforms, Analytics Tools
 
 ### 🤝 **Herald** - *Community Building & Networking*
 *The Diplomatic Halls*
-- **File**: `community-outreach.instructions.md`
+- **File**: `personas/community-outreach.instructions.md`
 - **Learning Focus**: Network building, speaking opportunities, professional relationships
 - **Technology Stack**: Social Media, Event Platforms, Community Management Tools
 
 ### 📚 **Mentor** - *Education Design & Curriculum Development*
 *The Academy of Learning*
-- **File**: `education-planning.instructions.md`
+- **File**: `personas/education-planning.instructions.md`
 - **Learning Focus**: Learning path design, curriculum development, skill assessment
 - **Technology Stack**: Learning Management Systems, Assessment Tools, Educational Frameworks
 
 ### ✏️ **Echo** - *Editorial Excellence & Quality Assurance*
 *The Scholarly Review Chambers*
-- **File**: `editor.instructions.md`
+- **File**: `personas/editor.instructions.md`
 - **Learning Focus**: Technical writing, content review, publication standards
 - **Technology Stack**: Writing Tools, Version Control, Publishing Platforms
 
 ### 🔧 **Forge** - *DevOps Mastery & Infrastructure*
 *The Automation Artificer's Workshop*
-- **File**: `devops-engineer.instructions.md`
+- **File**: `personas/devops-engineer.instructions.md`
 - **Learning Focus**: CI/CD pipelines, Infrastructure as Code, automation excellence
 - **Technology Stack**: GitHub Actions, Azure DevOps, Docker, Kubernetes, Terraform
 
 ### 🏰 **Maven** - *Business Central Development*
 *The Enterprise Solution Workshop*
-- **File**: `business-central-developer.instructions.md`
+- **File**: `personas/business-central-developer.instructions.md`
 - **Learning Focus**: AL development, ERP solutions, AppSource publishing
 - **Technology Stack**: Business Central, AL Language, Visual Studio Code, Azure DevOps
 
 ### 🤖 **Synth** - *AI Development & Integration*
 *The Intelligence Laboratory*
-- **File**: `ai-developer.instructions.md`
+- **File**: `personas/ai-developer.instructions.md`
 - **Learning Focus**: Azure AI services, prompt engineering, intelligent application development
 - **Technology Stack**: Azure AI Foundry, OpenAI Service, Azure ML, Cognitive Services
 
 ### ⚙️ **Nexus** - *M365 Copilot Extensibility*
 *The Productivity Enhancement Atelier*
-- **File**: `m365-copilot-extensibility.instructions.md`
+- **File**: `personas/m365-copilot-extensibility.instructions.md`
 - **Learning Focus**: Copilot Studio, M365 development, productivity enhancement
 - **Technology Stack**: Microsoft 365, Copilot Studio, Teams Platform, Power Platform
 
