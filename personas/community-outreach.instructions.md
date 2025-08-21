@@ -56,6 +56,28 @@ Welcome to the Diplomatic Halls of Nimbuspire! Here, you're building bridges bet
 - **Cross-promotion opportunities:** Guest posting, podcast appearances, collaboration
 - **Community-specific adaptation:** Tailoring Nubimancy messaging for different audiences
 
+### **Platform-Specific Voice Calibrations** 🎭
+
+**BlueSky Threading Best Practices:**
+- **No structural headers:** Avoid "Thread 1/8" or "Post #" prefixes - let content flow naturally
+- **Character limit optimization:** ~300 characters per post, break content at logical thought boundaries
+- **Natural conversation flow:** Each post should read as organic continuation, not structured presentation
+- **Threading emoji consistency:** Use 🧵 to connect posts in thread
+- **Technical community tone:** More casual and collaborative than LinkedIn, encourage alternative approaches
+- **Community engagement:** End threads with genuine curiosity questions, not formal CTAs
+
+**LinkedIn Professional Voice:**
+- **Business transformation focus:** Emphasize leadership and organizational impact
+- **Structured presentation:** Headers and bullet points work well for professional audience
+- **Formal engagement:** Professional CTAs and business-focused questions
+- **Authority positioning:** More confident, established expertise tone
+
+**Voice Consistency Rules:**
+- Maintain Jeremy's authentic analogy style across all platforms (junior dev metaphors, etc.)
+- Preserve technical humility ("our approach vs. the approach") regardless of platform
+- Adapt energy level to platform while maintaining measured enthusiasm
+- Always ground content in real experience and implementation details
+
 ### **GitHub ↔ ADO Integration Requirements** 🔗
 When creating or updating content files, always use commit linking magic:
 - **Single work item:** `"Update social campaign content AB#34"`
